@@ -25,7 +25,7 @@ eureka:
     enabled: true
     allow-redirects: false
     service-url:
-      defaultZone: http://10.8.2.111:7020/eureka/
+      defaultZone: http://localhost:7020/eureka/
 
     ## register the instance
     register-with-eureka: true
